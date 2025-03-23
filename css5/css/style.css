@@ -1,0 +1,23 @@
+
+
+.block-1 {
+    border: 10px black;
+    border-radius: 20px;
+    overflow-x: hidden;
+    max-height: 500px;
+    background: rgb(223, 223, 223);
+}
+
+.block-2 {
+    box-sizing: border-box;
+    margin: 7px; 
+    padding: 30px 55px 200px 50px;
+    box-shadow: inset -4px 1px 6px -3px black;
+    border-radius: 20px;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    background: #e9bd8b;
+    
+    
+}
