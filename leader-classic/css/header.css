@@ -1,0 +1,502 @@
+.header__bacground-green {
+    position: absolute;
+    filter: blur(500px);
+    background: linear-gradient(180.00deg, #98c269, #9edfb6 100%);
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    left: -480px;
+    bottom: 10px;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 39px 0;
+
+}
+
+.header__brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.header__logo-crown {
+    position: relative;
+    top: -31px;
+    left: -21px;
+}
+
+.header__logo-crown svg {
+    width: 34px;
+    height: 17px;
+}
+
+/* Логотип */
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    text-align: end;
+    padding: 0 15px;
+}
+
+.header__logo svg {
+    position: absolute;
+    width: 52px;
+    height: 45px
+}
+
+
+/* Заголовок */
+
+.header__title {
+    display: flex;
+    text-align: center;
+    font-family: 'Latin CT Wide';
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 118.52%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    transform: scaleY(1.0) scaleX(1.98);
+}
+
+.nav {
+    display: flex;
+    text-align: left;
+}
+
+.nav:last-child {
+    gap: 0;
+}
+
+.nav__icon-text {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: 'Gotham Pro';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+/* Навигация */
+
+.nav__list {
+    display: flex;
+    align-items: safe;
+    gap: 75px;
+
+}
+
+.nav__item {
+    display: flex;
+    align-items: center;
+}
+
+.nav__icon-text {
+    padding-right: 4px;
+}
+
+.nav__icon-text img {
+    width: 28px;
+}
+
+.nav__item--lang {
+    font-size: 15px;
+    transform: rotate(90deg) scaleY(1.8) scaleX(.9);
+}
+
+.nav__link {
+    position: relative;
+    transition: color 0.3s;
+    font-family: 'Gotham Pro';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.nav__link::before {
+    content: "";
+    position: absolute;
+    left: 110%;
+    top: -20%;
+
+    width: 18px;
+    height: 18px;
+    background: transparent;
+    transition: background 0.3s;
+}
+
+.nav__link:hover::before {
+    background: #CB6D9C;
+    z-index: -1;
+}
+
+.nav__link:hover {
+    background: linear-gradient(90deg, #E7AA19 0%, #E7AA19 50%, #CB6D9C 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+/* Кнопки */
+
+.header__actions {
+    display: flex;
+    text-align: center;
+    padding: 0px 0px 0px 160px;
+    gap: 10px;
+}
+
+.button__black {
+    position: relative;
+    background: #000000;
+    border-radius: 20px;
+    padding: 15px 25px;
+    display: inline-block;
+    margin: 0 20px;
+    width: 113px;
+    height: 60px;
+
+    color: #f1dddd;
+    font-family: 'Gotham Pro';
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0%;
+}
+
+.button__black::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border-radius: 22px;
+    background: linear-gradient(90deg, #FF8924 0%, #FFB017 100%);
+
+    z-index: -1;
+    padding: 2px;
+}
+
+
+.button__orange {
+    border-radius: 20px;
+    width: 234px;
+    box-shadow: inset 0px -4px 0px 0px #8f4119, 0px 3px 49px -3px #e28048c2;
+    background: linear-gradient(56.66deg, #dc6b30 17.978%, #e4864f 49.627%, #ffbe82 72.68%, #e49031 92.997%);
+
+    color: #000000;
+    font-family: 'Gotham Pro';
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0%;
+}
+
+/* Бургер-меню */
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+    width: 30px;
+    height: 21px;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.burger-menu span {
+    display: block;
+    height: 2px;
+    background: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.burger-menu span:nth-child(1),
+.burger-menu span:nth-child(3) {
+    width: 100%;
+}
+
+.burger-menu span:nth-child(2),
+.burger-menu span:nth-child(4) {
+    width: 70%;
+}
+
+.burger-menu.active span:nth-child(1) {
+    transform: translatey(6px) rotate(45deg);
+}
+
+.burger-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-menu.active span:nth-child(3) {
+    transform: translatey(-6px) rotate(-45deg);
+}
+
+.burger-menu.active span:nth-child(4) {
+    opacity: 0;
+}
+
+/* Мобильное меню */
+
+.mobile-nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    z-index: 99;
+    padding: 100px 20px 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile-nav.active {
+    display: flex;
+}
+
+/* Мобильное меню стили */
+
+.mobile-nav .nav__list {
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+}
+
+.mobile-nav .nav__item {
+    width: 100%;
+    justify-content: center;
+}
+
+.mobile-nav .nav__link {
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.mobile-nav .nav__link::before {
+    display: none;
+}
+
+.mobile-nav .nav__icon-text {
+    justify-content: center;
+    padding: 10px;
+}
+
+.mobile-nav .nav__icon-text img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+
+/* ============================ */
+/* ============================ */
+/* ============================ */
+/* ============================ */
+
+/* Адаптация */
+
+@media (max-width: 1500px) {
+    .header__inner {
+        padding: 39px 20px;
+    }
+
+    .header__actions {
+        padding-left: 100px;
+    }
+
+    .nav__list {
+        gap: 60px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .header__inner {
+        justify-content: space-between;
+        padding: 30px 20px;
+    }
+
+    .header__actions {
+        padding-left: 50px;
+    }
+
+    .nav__list {
+        gap: 40px;
+    }
+
+    .nav__link {
+        font-size: 16px;
+    }
+
+    .button__orange {
+        width: 200px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .header__logo svg {
+        width: 35px;
+    }
+
+
+    /* Заголовок */
+    .header__title {
+        font-size: 10px;
+    }
+
+    .header__logo-crown img {
+        width: 24px;
+    }
+
+    .header__logo-crown {
+        top: -19px;
+        left: -25px;
+    }
+
+    .nav__list {
+        gap: 15px;
+    }
+
+    .nav__item--lang {
+        padding-left: -5px;
+    }
+
+    .nav__icon-text img {
+        width: 25px;
+    }
+
+    .header__actions {
+        padding-left: 30px;
+    }
+
+    .button__orange {
+        width: 140px;
+        font-size: 14px;
+        border-radius: 12px;
+    }
+
+    .button__black {
+        width: 90px;
+        height: 50px;
+        font-size: 14px;
+        margin: 0 10px;
+        padding: 10px 0;
+        padding-top: 14px;
+        border-radius: 12px;
+    }
+
+    .button__black::before {
+        border-radius: 12px;
+
+    }
+}
+
+@media (max-width: 1000px) {
+    .nav {
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+
+    .header__brand {
+        padding-right: 400px;
+    }
+
+}
+
+@media (max-width: 910px) {
+    .header__brand {
+        padding-right: 350px;
+    }
+}
+
+@media (max-width: 850px) {
+    .header__brand {
+        padding-right: 300px;
+    }
+}
+
+@media (max-width: 810px) {
+    .header__brand {
+        padding-right: 250px;
+    }
+}
+
+@media (max-width: 750px) {
+    .header__brand {
+        padding-right: 200px;
+    }
+}
+
+@media (max-width: 710px) {
+    .header__brand {
+        padding-right: 150px;
+    }
+}
+
+@media (max-width: 650px) {
+    .header__brand {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 610px) {
+
+    .button__orange {
+
+        border-radius: 10px;
+    }
+
+    .button__black {
+        border-radius: 10px;
+
+    }
+
+    .button__black::before {
+        border-radius: 10px;
+
+    }
+}
+
+@media (max-width: 560px) {
+    .header__brand {
+        display: none;
+    }
+
+    .header__actions {
+        padding-left: 5px;
+    }
+
+    .button__black {
+        width: 60px;
+        font-size: 13px;
+        margin: 0 3px;
+    }
+
+    .button__orange {
+        width: 120px;
+        font-size: 12.5px;
+    }
+
+}
