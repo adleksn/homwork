@@ -1,0 +1,346 @@
+
+.platform__inner {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.platform__title {
+    padding-bottom: 25px;
+    max-width: 560px;
+    width: 100%;
+}
+
+.platform__text {
+    max-width: 530px;
+    width: 100%;
+    color: #fafafa;
+    font-family: 'Gotham Pro';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 158.2%;
+    letter-spacing: 0%;
+}
+
+.platform__img-computer {
+    max-width: 1052px;
+    width: 100%;
+}
+
+
+.platform__img-decor {
+    padding-top: 47px;
+}
+
+.platform__img-decor-pl {
+    max-width: 1588px;
+    width: 100%;
+}
+
+.platform__iphone {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 350px;
+}
+
+.platform__iphone--img {
+    max-width: 732px;
+    width: 100%;
+}
+
+.platform__iphone-bg {
+    position: absolute;
+    top: 52%;
+    left: 15%;
+
+    filter: blur(500px);
+    background: linear-gradient(180.00deg, #98c269, #9edfb6 100%);
+    max-width: 275px;
+    width: 100%;
+    height: 276px;
+    z-index: -1;
+}
+
+/* =================== */
+
+.devices__title {
+    max-width: 560px;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.devices__text {
+    max-width: 530px;
+    width: 100%;
+    color: #fafafa;
+    font-family: 'Gotham Pro';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 158.2%;
+    letter-spacing: 0%;
+}
+
+.devices__button {
+    display: flex;
+    padding-top: 52px;
+}
+
+.devices_button--appel {
+    margin-right: 20px;
+    width: 245px;
+    height: 70px;
+}
+
+.appel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 2px solid #ffffff99;
+    background: #000;
+    border-radius: 35px;
+    padding: 5px 0px 0 0px;
+    width: 245px;
+    height: 70px;
+
+}
+
+.appel-img {
+    padding-bottom: 6px;
+    padding-right: 5px;
+}
+
+.devices_button--android {
+    width: 245px;
+    height: 70px;
+}
+
+.android {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 2px solid #ffffff99;
+    background: #000;
+    border-radius: 35px;
+    padding: 5px 0px 0 0px;
+    width: 245px;
+    height: 70px;
+}
+
+.android-img {
+    padding-bottom: 6px;
+    padding-right: 5px;
+}
+
+
+
+/* ============================== */
+
+
+
+/* ============================== */
+/* ============================== */
+/* ============================== */
+
+@media (max-width: 1450px) {
+    .platform__iphone {
+        padding-top: 250px;
+    }
+
+}
+
+@media (max-width: 1230px) {
+    .platform__title {
+        font-size: 60px;
+    }
+
+    .platform__text {
+        font-size: 23px;
+    }
+
+    /* =============== */
+
+    .devices__title {
+        font-size: 60px;
+    }
+
+    .devices__text {
+        font-size: 23px;
+    }
+
+
+}
+
+@media (max-width: 1070px) {
+    .platform__title {
+        font-size: 45px;
+    }
+
+    .platform__text {
+        font-size: 20px;
+    }
+
+
+    .platform__iphone {
+        padding-top: 230px;
+    }
+
+    /* ====================== */
+
+    .devices__title {
+        max-width: 400px;
+        font-size: 45px;
+    }
+
+    .devices__text {
+        max-width: 400px;
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 810px) {
+
+    .platform__title {
+        font-size: 30px;
+    }
+
+    .platform__text {
+        font-size: 18px;
+    }
+
+    /* ====================== */
+
+    .devices {
+        text-align: center;
+    }
+
+    .devices__title {
+        font-size: 30px;
+    }
+
+    .devices__text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .devices {
+        margin-left: 15%;
+    }
+
+    .platform__iphone {
+        padding-top: 150px;
+        display: block;
+    }
+
+    .platform__iphone--img {
+        display: none;
+    }
+
+    .platform__iphone-bg {
+        top: 36%;
+        left: 29%;
+    }
+}
+
+@media (max-width: 600px) {
+    .platform__title {
+        font-size: 25px;
+    }
+
+    .platform__text {
+        font-size: 16px;
+    }
+
+    /* ====================== */
+
+    .devices__title {
+        font-size: 25px;
+    }
+
+    .devices__text {
+        font-size: 16px;
+    }
+
+    .devices_button--appel {
+        margin-right: 5px;
+        width: 200px;
+    }
+
+    .appel {
+        width: 200px;
+    }
+
+    .appel p {
+        font-size: 12px;
+    }
+
+    .devices_button--android {
+        width: 200px;
+    }
+
+    .android {
+        width: 200px;
+    }
+
+    .android p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .platform__title {
+        font-size: 20px;
+    }
+
+    .platform__text {
+        font-size: 14px;
+    }
+
+    .platform__iphone-bg {
+        top: 36%;
+        left: 25%;
+    }
+
+    /* ====================== */
+
+    .devices__title {
+        font-size: 25px;
+    }
+
+    .devices__text {
+        font-size: 14px;
+    }
+
+    .devices_button--appel {
+
+        width: 160px;
+    }
+
+    .appel {
+        width: 160px;
+    }
+
+    .devices_button--android {
+        width: 160px;
+    }
+
+    .android {
+        width: 160px;
+    }
+}
+
+@media (max-width: 400px) {
+    .platform__iphone-bg {
+        top: 36%;
+        left: 12%;
+    }
+}

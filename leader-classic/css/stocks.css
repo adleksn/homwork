@@ -1,0 +1,1220 @@
+.stocks {
+    display: flex;
+    min-height: 105px;
+}
+
+.stocks__timer-bg {
+    display: flex;
+    width: 100%;
+    max-width: 1500px;
+    height: 105px;
+    padding: 30px;
+    border-radius: 19px;
+    background: linear-gradient(126.19deg, #ffffff0f 0.732%, #1E1E1E 100%);
+    margin: 0px auto;
+}
+
+.stocks__timer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timer-box {
+    position: relative;
+    padding: 0 70px 0;
+}
+
+.timer-box__square img {
+    position: absolute;
+    left: -17px;
+    top: -9px;
+    width: 100%;
+    max-width: 100px;
+    height: 50px;
+    transform: rotate(-27.50deg);
+}
+
+.timer-box__title {
+    font-family: 'Gotham Pro';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 17px;
+
+}
+
+.timer-box__text {
+    padding-top: 8px;
+    font-family: 'Gotham Pro';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+}
+
+.timer-box__timer {
+    font-family: 'Gotham Pro';
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: -8%;
+}
+
+.timer-box__in {
+    font-size: 20px;
+}
+
+/* ======================== */
+
+.stocks__inner {
+    display: flex;
+
+    padding: 40px 0 0 40px;
+}
+
+.stocks__title {
+    width: 100%;
+    max-width: 1003px;
+    font-family: "Gotham Pro";
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 117.2%;
+}
+
+.stocks__list {
+    position: relative;
+    padding: 15px 20px;
+}
+
+.stocks__item {
+    color: #eae9e9;
+    list-style: disc;
+    font-family: "Gotham Pro";
+    font-size: 30px;
+    font-weight: 300;
+    text-align: left;
+
+}
+
+.stocks__list-arrow {
+    position: absolute;
+    top: 10px;
+    left: -50px;
+    right: 0;
+}
+
+.stocks__buttons-container {
+    display: flex;
+}
+
+.stocks__button {
+    position: relative;
+    width: 100%;
+    max-width: 378px;
+    height: 106px;
+    box-shadow: inset 0px -4px 0px 0px #8f4119, 0px 3px 49px -3px #e28048c2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stocks__button-text {
+    padding: 19px 0 0 15px;
+    color: #000000;
+    font-family: "Gotham Pro";
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.stocks__button-img {
+    position: absolute;
+    width: 101px;
+    height: 94px;
+    top: -2px;
+    right: -19px;
+    transform: scaleY(1.2) scaleX(1.18);
+}
+
+.stocks__button-black {
+    width: 100%;
+    max-width: 377px;
+    height: 106px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.stocks__button-black--text {
+    text-align: center;
+    padding: 22px 0;
+    font-family: "Gotham Pro";
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.stocks__users {
+    padding: 49px 0;
+    display: flex;
+}
+
+.stocks__users-img {
+    width: 160px;
+}
+
+.stocks__users-text {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 12px;
+}
+
+.stocks__bacground {
+    position: relative;
+}
+
+.stocks__bacground-green {
+    position: absolute;
+    filter: blur(500px);
+    background: linear-gradient(180.00deg, #98c269, #9edfb6 100%);
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    top: 575px;
+    right: 100px;
+}
+
+.stocks__decor {
+    position: relative;
+}
+
+.stocks__decor-img {
+    position: absolute;
+    top: -780px;
+    left: 900px;
+    width: 100%;
+    max-width: 1060px;
+}
+
+/* ================ */
+
+.catalog__title {
+    text-align: center;
+}
+
+.catalog__text {
+    padding: 23px 0;
+    font-family: "Gotham Pro";
+    font-size: 25px;
+    text-align: center;
+}
+
+.catalog__companies--inner {
+    position: relative;
+    padding: 175px 20px;
+}
+
+.catalog__companies {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    text-align: center;
+    width: 144px;
+    height: 144px;
+    border-radius: 24px;
+    background: #ffffff;
+}
+
+.catalog__tesla {
+    padding-right: 140px;
+}
+
+.catalog__tesla-bg {
+    background: linear-gradient(90.62deg, #0e0e12, #00000000 100%);
+    width: 47px;
+    height: 134px;
+    position: absolute;
+    left: 11px;
+    visibility: hidden;
+}
+
+.catalog__tesla img {
+    width: 125px;
+}
+
+.catalog__amazon {
+    padding-right: 150px;
+}
+
+.catalog__amazon img {
+    width: 92px;
+
+}
+
+.catalog__appel {
+    padding-right: 140px;
+}
+
+.catalog__appel img {
+    width: 61px;
+}
+
+.catalog__yandex {
+    padding-right: 140px;
+}
+
+.catalog__yandex img {
+    width: 93px;
+}
+
+.catalog__facebook {
+    padding-right: 120px;
+}
+
+.catalog__facebook img {
+    width: 123px;
+}
+
+.catalog__microsoft {
+    padding: 10px;
+}
+
+.catalog__microsoft-bg {
+    background: linear-gradient(90.62deg, #0e0e12, #00000000 100%);
+    width: 47px;
+    height: 134px;
+    transform: rotate(-180.00deg);
+    position: absolute;
+    visibility: hidden;
+    right: -30px;
+
+}
+
+.catalog__microsoft img {
+    width: 122px;
+}
+
+.blok {
+    position: absolute;
+    top: 100px;
+}
+
+.text {
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.money {
+    margin-left: 15px;
+}
+
+.catalog__companies-inerest {
+    padding: 9px 0;
+    color: #4bd879;
+    font-family: "Gotham Pro";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 130.2%;
+}
+
+.catalog__companies-money {
+    font-family: "Gotham Pro";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 130.2%;
+}
+
+
+.catalog__text-securities {
+    text-align: center;
+    padding-top: 134px;
+    padding-bottom: 34px;
+    font-family: "Gotham Pro";
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.catalog__button--block {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 162px;
+}
+
+.catalog__button {
+    text-align: center;
+    max-width: 376px;
+    width: 100%;
+    padding-top: 36px;
+    padding-bottom: 35px;
+}
+
+.catalog__tools-title {
+    text-align: center;
+    padding-bottom: 93px;
+}
+
+.catalog__tools-img img {
+    max-width: 1605px;
+    width: 100%;
+}
+
+/* ============================================ */
+/* ============================================ */
+/* ============================================ */
+/* ============================================ */
+/* ============================================ */
+
+/* Адаптация */
+
+
+@media (max-width: 1553px) {
+    .container {
+        max-width: 1553px;
+    }
+
+    .stocks__timer-box {
+        justify-content: start;
+    }
+
+    /* ========================= */
+
+    .catalog__tesla {
+        padding-right: 90px;
+    }
+
+    .catalog__amazon {
+        padding-right: 113px;
+    }
+
+    .catalog__appel {
+        padding-right: 118px;
+    }
+
+}
+
+@media (max-width: 1500px) {
+
+    .container {
+        max-width: 1460px;
+    }
+
+    /* ================== */
+
+    .stocks__title {
+        font-size: 60px;
+    }
+
+    .stocks__list {
+        font-size: 25px;
+    }
+
+    .stocks__decor-img {
+        top: -700px;
+        left: 870px;
+    }
+
+    .stocks__bacground-green {
+        right: 0px;
+    }
+}
+
+@media (max-width: 1440px) {
+
+    /* ==================== */
+
+    .timer-box__timer {
+        font-size: 20px;
+        margin-left: 90px;
+    }
+
+    .timer-box__text {
+        font-size: 16px;
+    }
+
+    /* ===================== */
+
+    .stocks__decor-img {
+        top: -641px;
+        left: 870px;
+    }
+
+    .catalog__appel {
+        padding-right: 88px;
+    }
+
+    .catalog__yandex {
+        padding-right: 100px;
+    }
+
+    .catalog__facebook {
+        padding-right: 75px;
+    }
+}
+
+@media (max-width: 1415px) {
+
+    /* ================= */
+
+    .timer-box__timer {
+        margin-left: 70px;
+    }
+
+
+    .stocks__title {
+        font-size: 40px;
+    }
+
+    .stocks__list {
+        font-size: 18px;
+    }
+
+    .stocks__decor-img {
+        width: 100%;
+        max-width: 700px;
+        top: -601px;
+        left: 980px;
+    }
+
+    .stocks__bacground-green {
+
+        top: 386px;
+    }
+
+}
+
+@media (max-width: 1370px) {
+
+    .timer-box__timer {
+        margin-left: 40px;
+    }
+
+}
+
+@media (max-width: 1340px) {
+
+    .timer-box__timer {
+        margin-left: 0px;
+    }
+
+}
+
+@media (max-width: 1300px) {
+
+    .stocks__timer-box {
+        height: 100%;
+        max-height: 115px;
+    }
+
+    .timer-box {
+        padding: 0;
+    }
+
+    .timer-box__square img {
+        display: flex;
+        left: 99%;
+    }
+
+    .timer-box__text {
+        padding-top: 8px;
+    }
+
+    .timer-box__timer {
+        position: absolute;
+        top: 165px;
+        left: 46px;
+        font-size: 19px;
+    }
+
+    /* ===================== */
+
+    .stocks__bacground-green {
+        top: 830px;
+        right: 50px;
+    }
+
+
+    .stocks__decor-img {
+        top: -141px;
+        left: 740px;
+    }
+
+    /* ==================== */
+    .catalog__title {
+        padding-top: 575px;
+    }
+
+    .catalog__tesla {
+        padding-right: 50px;
+    }
+
+    .catalog__amazon {
+        padding-right: 83px;
+    }
+
+    .catalog__appel {
+        padding-right: 54px;
+    }
+
+    .catalog__yandex {
+        padding-right: 80px;
+    }
+
+    .catalog__facebook {
+        padding-right: 35px;
+    }
+}
+
+@media (max-width: 1260px) {
+
+    /* ===================== */
+
+    .stocks__bacground-green {
+        right: 120px;
+    }
+
+    .stocks__decor-img {
+        top: -141px;
+        left: 630px;
+    }
+
+
+    /* ====================== */
+
+
+    .catalog__title {
+        font-size: 40px;
+        display: block;
+    }
+
+    .catalog__text {
+        font-size: 18px;
+        display: block;
+    }
+
+    .catalog__companies {
+        width: 119px;
+        height: 119px;
+    }
+
+    .catalog__facebook img {
+        width: 106px;
+    }
+
+    .catalog__microsoft img {
+        width: 105px;
+    }
+
+    .catalog__tesla img {
+        width: 115px;
+    }
+
+    .text {
+        margin-top: 40px;
+        margin-left: 5px;
+    }
+
+    .money {
+        margin-left: 8px;
+    }
+
+    /* ====================== */
+
+    .catalog__tools-title {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 1050px) {
+
+
+    .timer-box__timer {
+        top: 163px;
+    }
+
+    /* ================== */
+
+    .stocks__bacground-green {
+        top: 770px;
+        right: 130px;
+    }
+
+
+    .stocks__decor-img {
+        top: -141px;
+        left: 430px;
+    }
+
+
+    /* ============== */
+
+    .catalog__tesla {
+        padding-right: 20px;
+    }
+
+    .catalog__amazon {
+        padding-right: 53px;
+    }
+
+    .catalog__appel {
+        padding-right: 24px;
+    }
+
+    .catalog__yandex {
+        padding-right: 60px;
+    }
+
+    .catalog__companies-inerest {
+        font-size: 25px;
+    }
+
+    .catalog__companies-money {
+        font-size: 15px;
+    }
+
+    /* =========================== */
+
+    .catalog__tools-title {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 965px) {
+
+    .stocks__timer-box {
+        flex-direction: column;
+    }
+
+    .timer-box__title {
+        font-size: 16px;
+    }
+
+    .timer-box__text {
+        padding-top: 8px;
+        max-width: 384px;
+        font-size: 14px;
+    }
+
+    .timer-box__square img {
+        left: 383px;
+        top: 10px;
+        max-width: 80px;
+        height: 40px;
+    }
+
+    .timer-box__timer {
+        top: 156px;
+    }
+
+    /* ==================== */
+
+    .stocks__title {
+        font-size: 30px;
+    }
+
+    .stocks__item {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 840px) {
+
+    .stocks__decor-img {
+        top: -141px;
+        left: 230px;
+    }
+
+    /* } ============ */
+
+    .stocks__title {
+        font-size: 30px;
+        width: 100%;
+        max-width: 580px;
+    }
+
+    .stocks__item {
+        font-size: 20px;
+        max-width: 587px;
+    }
+
+    .stocks__buttons-container {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .stocks_button-text {
+        font-size: 15px;
+    }
+
+    .stocks_button-black--text {
+        padding: 10px;
+    }
+
+    .stocks__button-img {
+        width: 51px;
+        height: 44px;
+        top: 27px;
+        right: -18px;
+    }
+
+    /* ===================== */
+
+    .catalog__companies--inner {
+        padding: 60px 0px;
+        margin-left: 25px;
+    }
+
+    .catalog__companies {
+        width: 100px;
+        height: 100px
+    }
+
+    .catalog__companies-inerest {
+        font-size: 20px;
+    }
+
+    .catalog__companies-money {
+        font-size: 14.5px;
+    }
+
+    .catalog__tesla {
+        padding-right: 30px;
+        padding-left: 5px;
+    }
+
+    .catalog__tesla img {
+        width: 90px;
+    }
+
+    .catalog__amazon {
+        padding-right: 30px;
+    }
+
+    .catalog__amazon img {
+        width: 77px;
+    }
+
+    .catalog__appel img {
+        width: 54px;
+    }
+
+    .catalog__yandex {
+        padding-right: 30px;
+    }
+
+    .catalog__yandex img {
+        width: 70px;
+    }
+
+    .catalog__facebook {
+        padding-right: 30px;
+    }
+
+    .catalog__facebook img {
+        width: 84px;
+    }
+
+    .catalog__microsoft {
+        padding: 0px;
+        margin-right: 500px;
+    }
+
+    .catalog__microsoft img {
+        width: 88px;
+    }
+
+    .catalog__button--block {
+        padding-bottom: 120px;
+    }
+
+    .blok {
+        position: static;
+    }
+
+    .text {
+        margin-top: 0;
+    }
+
+    /* ====================== */
+
+    .catalog__tools-title {
+        padding-bottom: 60px;
+        font-size: 37px;
+    }
+}
+
+@media (max-width: 750px) {
+    .catalog__companies--inner {
+        margin-left: 25px;
+    }
+
+    .catalog__tesla {
+        padding-right: 10px;
+    }
+
+    .catalog__amazon {
+        padding-right: 10px;
+    }
+
+    .catalog__appel {
+        padding-right: 10px;
+    }
+
+    .catalog__yandex {
+        padding-right: 10px;
+    }
+
+    .catalog__facebook {
+        padding-right: 10px;
+    }
+
+    .catalog__microsoft {
+        padding-right: 10px;
+    }
+
+    .catalog__button {
+        max-width: 260px;
+        width: 100%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+}
+
+@media (max-width: 640px) {
+
+    .timer-box__title {
+        font-size: 12px;
+    }
+
+    .timer-box__text {
+        font-size: 10px;
+    }
+
+    .timer-box__square img {
+        left: 95%;
+        top: 40px;
+        max-width: 60px;
+        height: 30px;
+    }
+
+    .timer-box__timer {
+        font-size: 15px;
+    }
+
+    /* ===================== */
+
+    .stocks__bacground-green {
+        top: 850px;
+        right: 0;
+        width: 300px;
+        height: 300px;
+    }
+
+    .stocks__decor-img {
+        top: -101px;
+        left: 276px;
+    }
+
+    /* =================== */
+
+    .stocks__title {
+        max-width: 280px;
+    }
+
+    .stocks__list-arrow {
+        top: 50px;
+    }
+
+    .stocks__item {
+        max-width: 287px;
+    }
+
+
+    /* ========================= */
+
+    .stocks__button {
+        border-radius: 7px;
+        max-width: 170px;
+        height: 76px;
+        padding: 0;
+    }
+
+    .stocks_button-text {
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .stocks__button-img {
+        width: 32px;
+        height: 34px;
+        top: 18px;
+        right: -11px;
+    }
+
+    .stocks__button-black {
+        max-width: 137px;
+        height: 73px;
+
+    }
+
+    /* ======================= */
+
+    .catalog__companies--inner {
+        margin-left: -54px;
+    }
+
+    /* ========================== */
+
+    .catalog__tools-title {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 530px) {
+
+    .stocks__bacground-green {
+        top: 900px;
+    }
+
+    .stocks__decor-img {
+        top: -41px;
+        left: 166px;
+    }
+
+    .stocks__button-black {
+
+        margin: 0 10px;
+    }
+
+    /* ======================= */
+
+    .catalog__title {
+        padding-top: 400px;
+    }
+
+
+    .catalog__tools-title {
+        padding-bottom: 30px;
+        font-size: 25px;
+    }
+
+    .catalog__button {
+    max-width: 200px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+
+    font-size: 15px;
+}
+
+    .catalog__button--block {
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .stocks__timer-bg {
+        padding-left: 5px;
+        margin: 0px 0px;
+    }
+
+    .timer-box__title {
+        font-size: 13px;
+    }
+
+    .timer-box__text {
+        font-size: 12px;
+    }
+
+    .timer-box__square img {
+        left: 339px;
+        top: 45px;
+        max-width: 46px;
+        height: 23px
+    }
+
+    .timer-box__timer {
+        font-size: 12px;
+        left: 20px;
+    }
+
+    .timer-box__in {
+        font-size: 10px;
+    }
+
+    /* =================== */
+
+    .catalog__title {
+        font-size: 35px;
+    }
+
+    .catalog__text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .stocks__bacground-green {
+        top: 950px;
+        right: 100px;
+    }
+
+    .stocks__decor-img {
+        width: 500px;
+        top: -71px;
+        left: -30px;
+    }
+
+
+    .stocks__users {
+        padding-top: 17px;
+        padding-bottom: 32px;
+    }
+
+    .stocks__users-img {
+        width: 120px;
+    }
+
+    .stocks__users-text {
+        font-size: 12px;
+    }
+
+    /* ===================== */
+
+    .catalog__title {
+        font-size: 30px;
+        padding-top: 400px;
+    }
+
+    .catalog__text {
+        font-size: 12px;
+    }
+
+    /* ========================= */
+
+    .catalog__companies {
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+    }
+
+    .catalog__companies-inerest {
+        font-size: 15px;
+        padding: 0;
+        margin-top: 5px;
+    }
+
+    .catalog__companies-money {
+        font-size: 12.5px;
+    }
+
+    .catalog__tesla {
+        padding-right: 12px;
+    }
+
+    .catalog__tesla img {
+        width: 70px;
+    }
+
+    .catalog__amazon {
+        padding-right: 12px;
+    }
+
+    .catalog__amazon img {
+        width: 62px;
+    }
+
+    .catalog__appel {
+        padding-right: 13px;
+    }
+
+    .catalog__appel img {
+        width: 26px;
+    }
+
+    .catalog__yandex {
+        padding-right: 13px;
+    }
+
+    .catalog__yandex img {
+        width: 40px;
+    }
+
+    .catalog__facebook {
+        padding-right: 14px;
+    }
+
+    .catalog__facebook img {
+        width: 67px;
+    }
+
+    /* ======================== */
+
+    .catalog__tools-title {
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .stocks__bacground-green {
+        right: 50px;
+    }
+
+    /* =================== */
+
+    .catalog__title {
+        font-size: 25px;
+    }
+
+    .catalog__text {
+        font-size: 10px;
+    }
+
+
+}
+
+@media (max-width: 380px) {
+    .stocks__inner {
+        padding: 40px 0 0 33px;
+    }
+
+    .timer-box__square img {
+        left: 319px;
+    }
+
+    /* ====================== */
+
+    .catalog__tesla-bg {
+        visibility: visible;
+    }
+
+    .catalog__microsoft-bg {
+        visibility: visible;
+    }
+
+    /* ===================== */
+
+    .catalog__text-securities {
+        padding-top: 16px;
+        font-size: 12px;
+        padding-bottom: 21px;
+    }
+
+    .catalog__button {
+        max-width: 149px;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        border-radius: 10px;
+
+        font-size: 12px;
+    }
+
+}
